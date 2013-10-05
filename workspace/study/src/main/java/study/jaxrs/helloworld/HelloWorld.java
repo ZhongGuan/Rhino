@@ -7,7 +7,7 @@ import javax.ws.rs.Produces;
 
 @ApplicationScoped
 @Path("/helloworld")
-public class HelloWorldImpl {
+public class HelloWorld {
 
     @GET
     @Produces("text/html")
