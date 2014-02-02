@@ -13,7 +13,7 @@ public class UserRepositoryImpl implements UserRepository {
     private EntityManager em;
 
 	/**
-	 * PK ¼ìË÷
+	 * PK
 	 */
 	@Override
 	public User find(String userName) {
